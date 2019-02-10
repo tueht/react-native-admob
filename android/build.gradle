@@ -5,11 +5,12 @@ def safeExtGet(prop, fallback) {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion safeExtGet("compileSdkVersion", "28.0.2")
-    buildToolsVersion safeExtGet("buildToolsVersion", 28)
+    compileSdkVersion safeExtGet("compileSdkVersion", "23.0.1")
+    buildToolsVersion safeExtGet("buildToolsVersion", 23)
 
     defaultConfig {
         minSdkVersion 16
+        targetSdkVersion safeExtGet('targetSdkVersion', 22)
     }
     buildTypes {
         release {
@@ -20,6 +21,6 @@ android {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.google.android.gms:play-services-ads:+'
+    implementation  'com.facebook.react:react-native:+'
+    implementation  'com.google.android.gms:play-services-ads:+'
 }
