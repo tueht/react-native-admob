@@ -1,18 +1,14 @@
-/* eslint-disable global-require */
-module.exports = {
-  get AdMobBanner() {
-    return require('./RNAdMobBanner').default;
-  },
-  get AdMobInterstitial() {
-    return require('./RNAdMobInterstitial').default;
-  },
-  get PublisherBanner() {
-    return require('./RNPublisherBanner').default;
-  },
-  get AdMobRewarded() {
-    return require('./RNAdMobRewarded').default;
-  },
-  get AdMobNativeAdvanced() {
-    return require('./RNAdMobNativeAdvanced').default;
-  },
-};
+import AdMobBanner from './RNAdMobBanner'
+import AdMobInterstitial from './RNAdMobInterstitial'
+import PublisherBanner from './RNPublisherBanner'
+import AdMobRewarded from './RNAdMobRewarded'
+import AdMobNativeAdvanced from './RNAdMobNativeAdvanced'
+
+
+export {
+  AdMobBanner,
+  AdMobInterstitial,
+  PublisherBanner,
+  AdMobRewarded,
+  AdMobNativeAdvanced
+}
