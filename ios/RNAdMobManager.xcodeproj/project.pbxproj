@@ -41,7 +41,6 @@
 		5E86A6451F126FCE008013EB /* RCTConvert+GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+GADAdSize.h"; sourceTree = SOURCE_ROOT; };
 		5E86A6461F126FCE008013EB /* RCTConvert+GADAdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+GADAdSize.m"; sourceTree = SOURCE_ROOT; };
 		9188821C22AE28EA00BE5E7C /* RNTNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTNativeAdView.h; sourceTree = "<group>"; };
-		9188821D22AE28EA00BE5E7C /* UnifiedNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnifiedNativeAdView.xib; sourceTree = "<group>"; };
 		9188821E22AE28EA00BE5E7C /* RNTNativeAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTNativeAdManager.h; sourceTree = "<group>"; };
 		9188821F22AE28EA00BE5E7C /* RNTNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTNativeAdView.m; sourceTree = "<group>"; };
 		9188822022AE28EA00BE5E7C /* RNTNativeAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTNativeAdManager.m; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 				9188822022AE28EA00BE5E7C /* RNTNativeAdManager.m */,
 				9188821C22AE28EA00BE5E7C /* RNTNativeAdView.h */,
 				9188821F22AE28EA00BE5E7C /* RNTNativeAdView.m */,
-				9188821D22AE28EA00BE5E7C /* UnifiedNativeAdView.xib */,
 				0CB8C04C1D9143A6002BC3EF /* RNDFPBannerViewManager.h */,
 				0CB8C04D1D9143A6002BC3EF /* RNDFPBannerViewManager.m */,
 				A96DA7801C146DA600FC639B /* RNGADBannerView.h */,

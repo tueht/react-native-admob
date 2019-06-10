@@ -30,7 +30,7 @@ NativeAdView.defaultProps = {
 
 const RNTNativeAdView = requireNativeComponent('RNTNativeAdView', NativeAdView);
 
-class RNAdMobNativeAdvanced extends React.PureComponent{
+class AdMobNativeAdvanced extends React.PureComponent{
   constructor(props) {
     super(props);
     this.state = {
@@ -54,11 +54,11 @@ class RNAdMobNativeAdvanced extends React.PureComponent{
   }
 }
 
-RNAdMobNativeAdvanced.propTypes = {
+AdMobNativeAdvanced.propTypes = {
   height: PropTypes.number.isRequired
 };
 
-RNAdMobNativeAdvanced.defaultProps = {
+AdMobNativeAdvanced.defaultProps = {
   height: 250
 };
 
@@ -74,4 +74,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default RNAdMobNativeAdvanced;
+export default AdMobNativeAdvanced;
