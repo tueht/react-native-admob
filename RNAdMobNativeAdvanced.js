@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   hiddenStyle: {
-    height: 0,
+    height: 33,
     opacity: 0,
     overflow: 'hidden'
   }
